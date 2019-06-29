@@ -1,0 +1,8 @@
+1. For pair plots you can ignore the surv_status variable (because it is not a feature)
+
+2.names, title and legend for all your charts. Having them makes your work more comprehensible. Especially where you have multiple plots in the same figure. In this case pdfs and cdfs, they don't make sense without legends, axes names and titles.
+
+3. You could always suppress the warnings you get in python, in that way it makes your notebook more presentable. Please run the following two lines in a cell at the starting of your notebook to suppress warnings:
+import warnings
+
+warnings.filterwarnings("ignore")
